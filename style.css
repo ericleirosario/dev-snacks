@@ -6,8 +6,7 @@
 }
 
 body {
-    /* background-color: #f0f0f0; */
-    background-image: url('/img/backgorund.jpg');
+    background-image: url('./img/backgorund.jpg');
     background-attachment: fixed;
     backdrop-filter: blur(5px);
 }
@@ -137,9 +136,11 @@ button:active {
     font-size: 14px;
 }
 
-.preco-card-container {    
+.preco-card-container {
+    font-weight: 600;    
     padding: 10px;
     border-top: 1px solid #d3d3d3;
+    color: #00bc6a;
     display: flex;    
     align-items: center;
     justify-content: space-between;   
