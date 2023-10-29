@@ -39,12 +39,14 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 button {
     width: 160px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     padding: 20px 10px;
     border: 2px solid #000000;
@@ -70,11 +72,16 @@ button:active {
 
 .cards-container {
     max-width: 1024px;
+    min-height: 42vh;
     margin: 50px auto;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 40px 0;
+    justify-content: center;
+}
+
+.box-card-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 40px;
 }
 
 .box-card {
